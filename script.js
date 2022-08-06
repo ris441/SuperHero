@@ -25,7 +25,7 @@ const getRandomSuperHero = (id, name)=>{
     })
 }
 const getrandomhero=()=>{
-    const heroId = Math.floor(Math.random()*731 + 1)
+    const heroId = Math.floor(Math.random()*731) + 1
     return heroId
 
 }
