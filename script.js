@@ -42,7 +42,7 @@ const statToEmoji={
 //getPowerStat function is used show the power status html
 const getPowerStat=(character)=>{
     const stats = Object.keys(character.powerstats).map(stat =>{
-        return `<p>${statToEmoji[stat]} ${stat}: ${character.powerstats[stat]}</p>`
+        return `<p>${statToEmoji[stat]} ${stat.toUpperCase()}: ${character.powerstats[stat]}</p>`
     })
     // console.log(stats)
     return stats.join(' ')
