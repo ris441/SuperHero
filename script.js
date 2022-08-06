@@ -59,7 +59,8 @@ const searchSuperHero=(name)=>{
         GetHeroName.innerHTML=`<h2>${hero.name}<h2/>`
         GetHeroImage.innerHTML=`<img src='${hero.image.url}' />`
         const powerstat=getPowerStat(hero)
-        powerStat.innerHTML=`${stat}`
+        console.log('powerstat')
+        powerStat.innerHTML=`${powerstat}`
 
 
     })
